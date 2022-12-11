@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Car Rental Webpage</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="jeep.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="login.html" target="_blank">SignUp/Login</a></li>
+            <li><a href="manage.html" target="_blank">Services</a></li>
+            <li><a href="services.html" target="_blank">Booking</a></li>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>Looking </span>to<br>rent a car?</h1>
+            <p>Don't worry. You are at the right place. We have the best cars for rental right here.</p>
+            <div class="app-stores">
+                <img src="ios.png" alt="">
+                <img src="play.png" alt="">
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <div class="input-box">
+                    <span>Location</span>
+                    <input type="search" name="" id="" placeholder="Search Places">
+                </div>
+                <div class="input-box">
+                    <span>Pick-Up Date</span>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span>Return Date</span>
+                    <input type="date" name="" id="">
+
+                </div>
+                <input type="submit" name="" id="" class="btn" onclick="alert('To confirm, Please Login/SignUp')">
+            </form>
+        </div>
+    </section>
+    <!--Ride-->
+    <section class="ride" id="ride">
+        <div class="heading">
+            <span>How It Works</span>
+            <h1>Rent With 3 Easy Steps</h1>
+        </div>
+        <div class="ride-container">
+            <div class="box">
+                <i class="bx bxs-map"></i>
+                <h2>Choose A Location</h2>
+                <p>Choose whichever location you want.</p>
+            </div>
+
+            <div class="box">
+                <i class="bx bxs-calendar-check"></i>
+                <h2>Pick-Up Date</h2>
+                <p> Choose the date convenient to your needs.</p>
+            </div>
+
+            <div class="box">
+                <i class="bx bxs-calendar-star"></i>
+                <h2>Book A Car</h2>
+                <p>Get the car and start riding.</p>
+            </div>
+        </div>
+    </section>
+    <!--Review-->
+        <section class="reviews" id="reviews">
+            <div class="heading">
+                <span>Reviews</span>
+                <h1>What Our Customers Say</h1>
+            </div>
+            <div class="reviews-container">
+                <div class="box">
+                    <div class="rev-img">
+                        <img src="rev1.jpg" alt="">
+                    </div>
+                    <h2>John</h2>
+                    <div class="stars">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                    <p>Affordable rates without compromising on quality.</p>
+                </div>
+
+                <div class="box">
+                    <div class="rev-img">
+                        <img src="rev2.jpg" alt="">
+                    </div>
+                    <h2>Mike</h2>
+                    <div class="stars">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Timely delivery and excellent service.</p>
+                </div>
+
+                <div class="box">
+                    <div class="rev-img">
+                        <img src="rev3.jpg" alt="">
+                    </div>
+                    <h2>Jane</h2>
+                    <div class="stars">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Outstanding. Very helpful and helped me find the perfect car for my family trip.</p>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
